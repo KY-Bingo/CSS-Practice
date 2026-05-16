@@ -1,0 +1,21 @@
+
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "font-weight" 400;
+  font-size: var(--fs, 12)
+}
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "font-weight" 400;
+}
+.inline{
+    display: inline-flex;
+}
+.flex{
+    display: flex;
+}
