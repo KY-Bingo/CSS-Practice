@@ -9,10 +9,10 @@
 </head>
 <body>
     <h1 class="playfair-display" style="font-size: 25px;">Box Model Practice</h1>
-    <div class="roboto flex" style="width: 200px; height: 100px; padding: 20px; border: 5px solid black; margin: 10px; --fs: 12px;">
+    <div class="roboto flex" style="width: 200px; height: 190px; padding: 20px; border: 5px solid black; margin: 10px; --fs: 12px;">
         This is a box model example. The content area is 200px wide and 100px tall. The padding adds 20px of space around the content, the border adds 5px of thickness, and the margin creates 10px of space outside the border.
     </div>
-    <p class="roboto" style="border: 2px solid red;">
+    <p class="roboto" style="border: 2px solid red; padding: 10px;">
         The box model consists of four main components: content, padding, border, and margin. The content is the innermost part of the box where text or images are placed. The padding is the space between the content and the border, which can be adjusted to create more space around the content. The border is a line that surrounds the padding and content, which can be styled with different colors and widths. Finally, the margin is the outermost layer that creates space between the box and other elements on the page. Understanding the box model is essential for designing and laying out web pages effectively.
     </p>
     <p class="playfair-display" style="font-size: 18px; margin-top: 20px;">
@@ -24,9 +24,36 @@
         <li>Border: A line that surrounds the padding and content, which can be styled with different colors and widths.</li>
         <li>Margin: The outermost layer that creates space between the box and other elements on the page.</li>
     </ul>
-    <div class="roboto" style="width: 150px; height: 50px; padding: 10px; border: 2px solid blue; margin: 15px; --fs: 12px;">
-        <p>I love KFC!</p>
-        <p>I hate Popeyes! (But I still go there sometimes)</p>
+    
+    <div class "flex-container" style = "height: auto; width: 800px; background-color: yellow; border: 2px solid black; flex-direction: column; display: flex;">
+        <p class="playfair-display" style="padding: 20px; font-size: 30px;">The container for the box model example.</p>
+        <div class="container" style="margin: 20px;">
+            <p class="roboto item" style="padding: 10px; border: 2px solid black; margin: 5px;">
+                This is a box model example. The content area is 200px wide and 100px tall. The padding adds 20px of space around the content, the border adds 4px of thickness, and the margin creates 5px of space outside the border.
+            </p>
+            <p class="roboto item" style="padding: 10px; border: 2px solid black; margin: 5px;">
+                By mastering the box model, you can control the layout and spacing of elements on your web page, ensuring that your design looks exactly how you want it to.
+            </p>
+            <p class = "roboto item" style="padding: 10px; border: 2px solid black; margin: 5px;">
+                Understanding the box model is essential for designing and laying out web pages effectively.
+            </p>
+        </div>
+        <div class = "container" style="margin: 20px;">
+            <p class="roboto item" style="padding: 10px; border: 2px solid black; margin: 5px; width:200px; flex: 4px">
+                I love KFC's new chicken sandwich. The crispy chicken, fresh lettuce, and soft bun create a perfect combination of flavors and textures that keep me coming back for more.
+            </p>
+            <div class="container" style="padding: 1px; justify-content: center; margin: 10px; flex-direction: column;">
+                <p class="roboto item" style="padding: 10px; border: 2px solid black; margin: 5px;">
+                    My pet chicken Gary
+                </p>
+                <p class="roboto item" style="padding: 10px; border: 2px solid black; margin: 5px;">
+                    My pet dog Max
+                </p>
+                <p class="roboto item" style="padding: 10px; border: 2px solid black; margin: 5px;">
+                    My pet cat Whiskers
+                </p>
+            </div>
+            
     </div>
 </body>
 </html>

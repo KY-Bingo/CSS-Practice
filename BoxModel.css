@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 .roboto {
   font-family: "Roboto", sans-serif;
@@ -19,3 +21,24 @@
 .flex{
     display: flex;
 }
+.flex-container div{
+    background-color: brown;
+    border: 4px solid black;
+    height: 200px;
+}
+.container{
+    background-color: lightblue;
+    padding: 12px;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    border:2px solid black
+}
+.item{
+    background-color: brown;
+    border: 4px solid black;
+    height: auto;
+   direction: column;
+    justify-content: center;
+}
+
